@@ -1,0 +1,73 @@
+/* The box css */
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #f1f1f1;
+	/*position: fixed;*/ /* leaves the NavBar in place */
+	overflow: hidden; /* Allows a scrollbar if there is to much info*/
+	border-radius: 25px;
+	font-family: 'Courgette', cursive;
+
+
+}
+
+li{
+	float: left;
+}
+
+li a{
+	display: block;
+	color: #000;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+
+
+}
+
+/* Changes the color of the box on mouse hover */
+
+li a:hover {
+  background-color: #FFB600;
+
+}
+.active{
+  background-color: #FF9300;
+  color: white;
+}
+/* End of he Navigation bar */
+/* Img size settings */
+img{
+	float: right;
+	width: -300px;
+	height: -300px;
+}
+#Start{
+	text-align: center;
+}
+#Middle{
+	text-align: center;
+}
+.Pictures{
+	width: 50px;
+	float: right;
+}
+
+body{
+	background-image: linear-gradient(#27AE60, #48C9B0);\
+
+	
+}
+
+
+.name{
+	position: absolute;
+	top: 200px;
+	left: 250px;
+}
+
+.about{
+	font-family: 'Russo One', sans-serif;
+    font-size: large;
+}
